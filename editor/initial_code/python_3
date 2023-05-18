@@ -1,0 +1,12 @@
+class Car:
+    ...
+
+class ElectricCar:
+    ...
+
+c1 = Car("Volvo", "s90")
+c2 = ElectricCar("Tesla", "Model 3", 50)
+c3 = ElectricCar("WV", "ID4", 35)
+c4 = Car("BMW", "X6")
+c5 = Car("Audi", "Q7")
+cars = [c1, c2, c3, c4, c5]
